@@ -8,6 +8,7 @@ public class ParallaxBG : MonoBehaviour
     public float scrollSpeed = 0.5f;
     private float offSet;
     private Material mat;
+    private float horizontal;
 
     void Start()
     {
@@ -16,7 +17,8 @@ public class ParallaxBG : MonoBehaviour
 
     void Update()
     {
-        offSet += (Time.deltaTime * scrollSpeed) / 10f;
+        horizontal = Input.GetAxisRaw("Horizontal");
+        offSet += (Time.deltaTime * scrollSpeed * horizontal) / 10f;
         mat.SetTextureOffset("_MainTex", new Vector2(offSet, 0));
     }
 }
