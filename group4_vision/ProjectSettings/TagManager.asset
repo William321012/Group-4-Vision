@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Background
   - 
   - 
   - 
@@ -64,6 +64,9 @@ TagManager:
     locked: 0
   - name: Character
     uniqueID: 4190503087
+    locked: 0
+  - name: Chatbox
+    uniqueID: 693417113
     locked: 0
   - name: Foreground 1
     uniqueID: 931764749
