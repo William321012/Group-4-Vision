@@ -382,11 +382,6 @@ SpriteAtlas:
   - {fileID: -124090722, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - {fileID: 1738968197, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - {fileID: 21300000, guid: 3fc2bbd409bf34ab6af1637bab569da1, type: 3}
-  - {fileID: 45509631, guid: e3d68505b0cafd64baa40fc88197f982, type: 3}
-  - {fileID: 1496242851, guid: e3d68505b0cafd64baa40fc88197f982, type: 3}
-  - {fileID: 1806004023, guid: e3d68505b0cafd64baa40fc88197f982, type: 3}
-  - {fileID: 1706334552, guid: e3d68505b0cafd64baa40fc88197f982, type: 3}
-  - {fileID: 957850449, guid: e3d68505b0cafd64baa40fc88197f982, type: 3}
   - {fileID: 21300000, guid: f7187675ec12e4aacaeb0e97ad31230a, type: 3}
   - {fileID: 21300000, guid: 55e98b85e57fe472fa74b40d9b61538b, type: 3}
   - {fileID: 21300000, guid: 724ba19574b4b41399100a70044d62e7, type: 3}
@@ -1798,7 +1793,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2918541d5830b40ff9298093228c04f6, type: 3}
   - {fileID: 21300000, guid: 4f21d02d3ca1c4521bbeffb4c158b72e, type: 3}
   - {fileID: 21300000, guid: 794aa25d484d140d89ea9601c122ece0, type: 3}
-  - {fileID: 21300000, guid: 001ebe6dd396e9a44aabdbf98ab28a8d, type: 3}
   - {fileID: 21300000, guid: 3d9fbcbd2f8aa134f996ba07573f5977, type: 3}
   - {fileID: 21300000, guid: 8125f05edda6a4a4180ab236ab029df2, type: 3}
   - {fileID: 21300000, guid: 30eace5e35fd8a54aad036ed0879b8ce, type: 3}
@@ -3187,11 +3181,6 @@ SpriteAtlas:
   - Terrain (16x16) 1_3
   - Terrain (16x16) 1_2
   - big-crate
-  - CampFireFinished_3
-  - CampFireFinished_2
-  - CampFireFinished_1
-  - CampFireFinished_0
-  - CampFireFinished_4
   - tree
   - banner-big-2
   - banner-neon-2
@@ -4603,7 +4592,6 @@ SpriteAtlas:
   - house-c
   - street-lamp
   - crate
-  - Floating Rock
   - grey_L3
   - blue_L2
   - blue_L4
