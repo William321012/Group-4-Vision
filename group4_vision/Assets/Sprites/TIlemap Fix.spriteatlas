@@ -58,10 +58,13 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 5511879193aae49419cd6daa384e4e0e, type: 3}
   - {fileID: 21300000, guid: 8049ea91a9d5fca4dab4024c0915dbe6, type: 3}
   - {fileID: 21300000, guid: b84356a1060a54545adc0b90dd3a5141, type: 3}
+  - {fileID: 21300000, guid: 8fdfb6f166b6016489697f73c6e4c7c2, type: 3}
   - {fileID: 21300000, guid: f1d96a02791e840bfa329a4a5b5b8f14, type: 3}
   - {fileID: 21300000, guid: 9edee812d1564448d9a52b0472611b90, type: 3}
   - {fileID: 21300000, guid: ffc80c129c9aca14c9fb4dbeba0e10d2, type: 3}
+  - {fileID: 21300000, guid: 99c0683267f05ee488ee4aa881331492, type: 3}
   - {fileID: 21300000, guid: 1dd5993292b954a53aae9df281d0a930, type: 3}
+  - {fileID: 21300000, guid: 43253a3260fd7f04dbf641486e47ede4, type: 3}
   - {fileID: 21300000, guid: cc1415a2dbac24b36ba3fb03933714c8, type: 3}
   - {fileID: 21300000, guid: f842a2b2f2d69854880419b90645f628, type: 3}
   - {fileID: 21300000, guid: 5001f9f26a272e74fa435bb63818b664, type: 3}
@@ -420,6 +423,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0049772a1acaf4a49b69bb504ffe2669, type: 3}
   - {fileID: 21300000, guid: c6803a2a3fe7f45e786b788e8ddb6771, type: 3}
   - {fileID: 21300000, guid: 09d1aa2af774c4085b9f379c5092bf84, type: 3}
+  - {fileID: 21300000, guid: b74d6f2a06a219548abe764e19c94a37, type: 3}
   - {fileID: 21300000, guid: c3b5f35ae691e4d719d7c458b48c7c28, type: 3}
   - {fileID: 21300000, guid: 4f540a6a2b820425d909a84e4650a499, type: 3}
   - {fileID: 21300000, guid: 3a52cc9a5ecd14d5aad2ba568f124b04, type: 3}
@@ -1785,6 +1789,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 4aadbdeb8a80c664a8fd117c907b5f3f, type: 3}
   - {fileID: 21300000, guid: 1423971c298b64565ac2014b97a82662, type: 3}
   - {fileID: 21300000, guid: 5bccf13ce09bd43e39c1c3416d5de92c, type: 3}
+  - {fileID: 21300000, guid: 2f280f4c0edc1b8488ba32750596e2e0, type: 3}
   - {fileID: 21300000, guid: 70fcf1bcc07324fbd9403a07682a2f88, type: 3}
   - {fileID: 21300000, guid: d3ae29bc873704d6197af9ad030f1b1c, type: 3}
   - {fileID: 21300000, guid: 248611cc7bb8d85448933cee393ce41e, type: 3}
@@ -1798,6 +1803,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 8125f05edda6a4a4180ab236ab029df2, type: 3}
   - {fileID: 21300000, guid: 30eace5e35fd8a54aad036ed0879b8ce, type: 3}
   - {fileID: 21300000, guid: b2fd798ef42f39b4cbb45652a0c8ce44, type: 3}
+  - {fileID: 21300000, guid: f8064b8e827cf6e43b34f16b09797055, type: 3}
   - {fileID: 21300000, guid: d886ba9ea1c0747f48bd6188b513f837, type: 3}
   - {fileID: 21300000, guid: 38b39d9e9f64d462a9ad0da114db0656, type: 3}
   - {fileID: 21300000, guid: 224884cef4f9549dc8e494a2c3f6ee87, type: 3}
@@ -2857,10 +2863,13 @@ SpriteAtlas:
   - crate-stack
   - Blue
   - banner-scroll-4
+  - Title 3
   - banner-coke-3
   - banner-small
   - Gray
+  - Broken Hotel
   - well
+  - Title 2
   - wagon
   - rock-2
   - straw-house
@@ -3219,6 +3228,7 @@ SpriteAtlas:
   - spikes
   - spikes-top
   - banner-floor
+  - chatbox-removebg-preview
   - banner-coke-2
   - banner-scroll-1
   - banners
@@ -4584,6 +4594,7 @@ SpriteAtlas:
   - plant-house
   - banner-side-1
   - block-big
+  - Title 1
   - hotel-sign
   - small-platform
   - Purple
@@ -4597,6 +4608,7 @@ SpriteAtlas:
   - blue_L2
   - blue_L4
   - purple_L3
+  - Main Menu Background
   - control-box-2
   - monitor-face-2
   - skyline-b
