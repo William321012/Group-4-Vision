@@ -393,6 +393,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: a0a3a0567001d4203bfdec3ec2095491, type: 3}
   - {fileID: 21300000, guid: 85e3b366cc43a412eaea4abb85da0cd3, type: 3}
   - {fileID: 21300000, guid: e20c9176086b94af3bdcf5158f6cfd8d, type: 3}
+  - {fileID: -562935650, guid: 4d2a8186626bb3d4f81729a1cb2410c7, type: 3}
+  - {fileID: 57340798, guid: 4d2a8186626bb3d4f81729a1cb2410c7, type: 3}
+  - {fileID: 2139968873, guid: 4d2a8186626bb3d4f81729a1cb2410c7, type: 3}
+  - {fileID: -1587050625, guid: 4d2a8186626bb3d4f81729a1cb2410c7, type: 3}
+  - {fileID: 561021757, guid: 4d2a8186626bb3d4f81729a1cb2410c7, type: 3}
   - {fileID: 21300000, guid: f87454e6f046e4340b8ae4c03ebfa016, type: 3}
   - {fileID: 21300000, guid: 10874c17f15914f2f95c00efdccf6907, type: 3}
   - {fileID: 21300000, guid: ab86af47e722e4469aab2bcc38e6f6ee, type: 3}
@@ -3192,6 +3197,11 @@ SpriteAtlas:
   - banner-neon-4
   - skyline-a
   - banner-side-4
+  - CampFireFinished_3
+  - CampFireFinished_2
+  - CampFireFinished_1
+  - CampFireFinished_0
+  - CampFireFinished_4
   - banner-arrow
   - banner-scroll-3
   - banner-scroll-2
