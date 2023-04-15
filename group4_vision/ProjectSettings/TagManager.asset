@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Background
   - 
   - 
   - 
@@ -44,6 +44,9 @@ TagManager:
   - name: House BG1
     uniqueID: 2483719037
     locked: 0
+  - name: Crate 1
+    uniqueID: 1757801907
+    locked: 0
   - name: House BG2
     uniqueID: 1920146315
     locked: 0
@@ -62,8 +65,14 @@ TagManager:
   - name: Grass
     uniqueID: 272103791
     locked: 0
+  - name: KillZone
+    uniqueID: 2112467987
+    locked: 0
   - name: Character
     uniqueID: 4190503087
+    locked: 0
+  - name: Chatbox
+    uniqueID: 693417113
     locked: 0
   - name: Foreground 1
     uniqueID: 931764749
