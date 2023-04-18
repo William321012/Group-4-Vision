@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Underground City.unity
     guid: 83987c94ef437b7419a9bafbdce77980
+  - enabled: 1
+    path: Assets/Scenes/Good Ending.unity
+    guid: 81ea58ef7106e3244882c0640ffe4a7f
+  - enabled: 1
+    path: Assets/Scenes/End Credits.unity
+    guid: e17f71ce1a49dbd4e854bdf1d715fb63
   m_configObjects: {}

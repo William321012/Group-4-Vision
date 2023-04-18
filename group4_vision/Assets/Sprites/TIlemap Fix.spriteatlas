@@ -1803,6 +1803,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 30eace5e35fd8a54aad036ed0879b8ce, type: 3}
   - {fileID: 21300000, guid: b2fd798ef42f39b4cbb45652a0c8ce44, type: 3}
   - {fileID: 21300000, guid: f8064b8e827cf6e43b34f16b09797055, type: 3}
+  - {fileID: 21300000, guid: 8bddf39e42d5f2440a84efe802b86122, type: 3}
   - {fileID: 21300000, guid: d886ba9ea1c0747f48bd6188b513f837, type: 3}
   - {fileID: 21300000, guid: 38b39d9e9f64d462a9ad0da114db0656, type: 3}
   - {fileID: 21300000, guid: 224884cef4f9549dc8e494a2c3f6ee87, type: 3}
@@ -4607,6 +4608,7 @@ SpriteAtlas:
   - blue_L4
   - purple_L3
   - Main Menu Background
+  - New Hotel
   - control-box-2
   - monitor-face-2
   - skyline-b
