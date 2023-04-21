@@ -421,6 +421,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 441a2d89600064d4d9ced045b19d0ae6, type: 3}
   - {fileID: 21300000, guid: 5680c1a9719b046e0bc08d861902f606, type: 3}
   - {fileID: 21300000, guid: bce2d1c9ca0475e4cb876c354b7b0121, type: 3}
+  - {fileID: 21300000, guid: 6887b8d9094ec0949b79d0a4d9d3939f, type: 3}
   - {fileID: 21300000, guid: 0f306fd9e5e6f446f8448898b82634b8, type: 3}
   - {fileID: 21300000, guid: 9798480a5c1ac1a4380a752bf86ba547, type: 3}
   - {fileID: 21300000, guid: 0049772a1acaf4a49b69bb504ffe2669, type: 3}
@@ -3232,6 +3233,7 @@ SpriteAtlas:
   - crank-up
   - background
   - tree-2
+  - Mechanics
   - banner-big-4
   - grey_L4
   - spikes

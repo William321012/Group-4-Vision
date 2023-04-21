@@ -6,6 +6,9 @@ TagManager:
   tags:
   - KillZone
   - Checkpoint
+  - Background
+  - ReturnButton
+  - ContinueButton
   layers:
   - Default
   - TransparentFX
