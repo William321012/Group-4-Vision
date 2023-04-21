@@ -19,6 +19,6 @@ public class NextSceneAfterAnimation : MonoBehaviour
 
     IEnumerator NextScene() {
         yield return new WaitForSeconds(22f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Underground City");
     }
 }
