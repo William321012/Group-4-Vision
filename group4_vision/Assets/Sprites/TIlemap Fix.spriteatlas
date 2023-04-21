@@ -78,6 +78,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 37d1bdb3e1de647ae915d01a2b7def15, type: 3}
   - {fileID: 21300000, guid: 9b3027d3d57a94a07b8aed183f1dbfda, type: 3}
   - {fileID: 21300000, guid: 43c5a8d370bd43244b7400e46dd87d14, type: 3}
+  - {fileID: 21300000, guid: 4a742034a9fb7c34c800c0144827e70a, type: 3}
   - {fileID: 1922864012054007380, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - {fileID: 2388695207056086460, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
   - {fileID: -575003177014463960, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
@@ -410,6 +411,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d00948e821f5e424ea01b186fe00a588, type: 3}
   - {fileID: 21300000, guid: ca6a66f8e2ae9c24c8c6b39c49206a0d, type: 3}
   - {fileID: 21300000, guid: 88271ef8cb2f844a59750124ca3106a2, type: 3}
+  - {fileID: 21300000, guid: ec6b3ff8bbae36e44ac91cfd724c9976, type: 3}
   - {fileID: 21300000, guid: ec31b0297eee742efaa7251fb981fa42, type: 3}
   - {fileID: 21300000, guid: ecc204495234d40f091d828790c56287, type: 3}
   - {fileID: 21300000, guid: 8be56079f98104befaf15e67184d36f1, type: 3}
@@ -1798,7 +1800,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2918541d5830b40ff9298093228c04f6, type: 3}
   - {fileID: 21300000, guid: 4f21d02d3ca1c4521bbeffb4c158b72e, type: 3}
   - {fileID: 21300000, guid: 794aa25d484d140d89ea9601c122ece0, type: 3}
-  - {fileID: 21300000, guid: 6277e68df55e4274cb08db0b84236295, type: 3}
   - {fileID: 21300000, guid: 3d9fbcbd2f8aa134f996ba07573f5977, type: 3}
   - {fileID: 21300000, guid: 8125f05edda6a4a4180ab236ab029df2, type: 3}
   - {fileID: 21300000, guid: 30eace5e35fd8a54aad036ed0879b8ce, type: 3}
@@ -2885,6 +2886,7 @@ SpriteAtlas:
   - buildings-bg
   - banner-side-2
   - grey_L1
+  - Controls
   - TX Tileset Ground_43
   - TX Tileset Ground_42
   - TX Tileset Ground_41
@@ -3217,6 +3219,7 @@ SpriteAtlas:
   - palm
   - Brown
   - banner-coke-1
+  - hospital_bed
   - banner-neon-3
   - bush
   - near-buildings-bg
@@ -4605,7 +4608,6 @@ SpriteAtlas:
   - house-c
   - street-lamp
   - crate
-  - hospital
   - grey_L3
   - blue_L2
   - blue_L4
