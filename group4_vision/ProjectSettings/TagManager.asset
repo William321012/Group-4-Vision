@@ -9,6 +9,7 @@ TagManager:
   - Background
   - ReturnButton
   - ContinueButton
+  - CollectController
   layers:
   - Default
   - TransparentFX

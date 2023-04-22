@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PersistentData : MonoBehaviour
 {
-    [SerializeField] int NewpaperCount;
-    [SerializeField] int ScrapCount;
+    [SerializeField] public int NewspaperCount;
+    [SerializeField] public int ScrapCount;
+    [SerializeField] public int EndingCount;
 
     public static PersistentData Instance;
 
@@ -25,7 +26,7 @@ public class PersistentData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        NewpaperCount = 0;
+        NewspaperCount = 0;
         ScrapCount = 0;
     }
 
@@ -35,9 +36,9 @@ public class PersistentData : MonoBehaviour
         
     }
 
-     public void SetNewpaperCount(int amount)
+     public void SetNewspaperCount(int amount)
     {
-        NewpaperCount = amount;
+        NewspaperCount = amount;
     }
 
     public void SetScrapCount(int amount)
@@ -45,9 +46,14 @@ public class PersistentData : MonoBehaviour
         ScrapCount = amount;
     }
 
+    public void SetEndingCount(int amount)
+    {
+        EndingCount = amount;
+    }
+
     public int GetNewpaperCount()
     {
-        return NewpaperCount;
+        return NewspaperCount;
     }
 
     public int GetScrapCount()
@@ -55,4 +61,8 @@ public class PersistentData : MonoBehaviour
         return ScrapCount;
     }
 
+    public int GetEndingCountt()
+    {
+        return EndingCount;
+    }
 }
