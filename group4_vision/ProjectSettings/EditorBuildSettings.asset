@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bad Ending.unity
     guid: 08fd70200b1d93f47a94533e323c8fa0
+  - enabled: 1
+    path: Assets/Scenes/Sky City.unity
+    guid: 9c1317854f172ae498075ea8f22fb8c9
   m_configObjects: {}
