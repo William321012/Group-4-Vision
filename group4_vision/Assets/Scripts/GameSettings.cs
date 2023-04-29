@@ -39,6 +39,10 @@ public class GameSettings : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 
+    public void GoToCredits() {
+        SceneManager.LoadScene("End Credits");
+    }
+
     public void ChangeVolume() {
         AudioListener.volume = volumeSlider.value;
     }
