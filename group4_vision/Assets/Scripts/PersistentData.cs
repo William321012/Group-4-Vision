@@ -7,6 +7,8 @@ public class PersistentData : MonoBehaviour
     [SerializeField] public int NewspaperCount;
     [SerializeField] public int ScrapCount;
     [SerializeField] public int EndingCount;
+    [SerializeField] string playerName;
+    [SerializeField] float timeSpent;
 
     public static PersistentData Instance;
 
@@ -28,6 +30,8 @@ public class PersistentData : MonoBehaviour
     {
         NewspaperCount = 0;
         ScrapCount = 0;
+        EndingCount = 0;
+        playerName = "";
     }
 
     // Update is called once per frame
@@ -51,6 +55,16 @@ public class PersistentData : MonoBehaviour
         EndingCount = amount;
     }
 
+    public void SetName(string name)
+    {
+        playerName = name;
+    }
+
+    public void SetTimeSpent(float time)
+    {
+        timeSpent = time;
+    }
+
     public int GetNewpaperCount()
     {
         return NewspaperCount;
@@ -61,8 +75,18 @@ public class PersistentData : MonoBehaviour
         return ScrapCount;
     }
 
-    public int GetEndingCountt()
+    public int GetEndingCount()
     {
         return EndingCount;
+    }
+
+    public string GetName()
+    {
+        return playerName;
+    }
+
+    public float GetTimeSpent()
+    {
+        return timeSpent;
     }
 }
