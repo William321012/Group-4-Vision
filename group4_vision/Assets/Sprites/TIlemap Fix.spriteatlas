@@ -385,6 +385,7 @@ SpriteAtlas:
   - {fileID: -124090722, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - {fileID: 1738968197, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - {fileID: 21300000, guid: 3fc2bbd409bf34ab6af1637bab569da1, type: 3}
+  - {fileID: 21300000, guid: 383a50f4d59720e4dbfef2ec24cb5c09, type: 3}
   - {fileID: 21300000, guid: f7187675ec12e4aacaeb0e97ad31230a, type: 3}
   - {fileID: 21300000, guid: 55e98b85e57fe472fa74b40d9b61538b, type: 3}
   - {fileID: 21300000, guid: 724ba19574b4b41399100a70044d62e7, type: 3}
@@ -3645,6 +3646,7 @@ SpriteAtlas:
   - Terrain (16x16) 1_3
   - Terrain (16x16) 1_2
   - big-crate
+  - LeaderboardBackground 1
   - tree
   - banner-big-2
   - banner-neon-2
