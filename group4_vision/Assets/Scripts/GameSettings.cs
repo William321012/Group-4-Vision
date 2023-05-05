@@ -8,6 +8,9 @@ public class GameSettings : MonoBehaviour
 {
     [SerializeField] Slider volumeSlider;
     [SerializeField] InputField username;
+    [SerializeField] AudioSource GameMusic;
+    [SerializeField] Dropdown musicOptionDropdown;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +19,7 @@ public class GameSettings : MonoBehaviour
             username.text = PersistentData.Instance.GetName();
             AudioListener.volume = .5f;
         }
+        GameMusic = GameObject.Find("GameController").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -45,5 +49,9 @@ public class GameSettings : MonoBehaviour
 
     public void ChangeVolume() {
         AudioListener.volume = volumeSlider.value;
+    }
+
+    public void ChangeBGM() {
+        PersistentData.Instance.SetBGM(musicOptionDropdown.value);
     }
 }

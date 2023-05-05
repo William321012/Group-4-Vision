@@ -9,6 +9,10 @@ public class PersistentData : MonoBehaviour
     [SerializeField] public int EndingCount;
     [SerializeField] string playerName;
     [SerializeField] float timeSpent = 0.0f;
+    [SerializeField] AudioClip BGM;
+    [SerializeField] AudioClip BGM1;
+    [SerializeField] AudioClip BGM2;
+    
 
     public static PersistentData Instance;
 
@@ -23,8 +27,9 @@ public class PersistentData : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        // Testing Leaderboard
-        // PlayerPrefs.DeleteAll();
+        if (BGM == null) {
+            BGM = BGM1;
+        }
     }
 
     // Start is called before the first frame update
@@ -70,6 +75,14 @@ public class PersistentData : MonoBehaviour
         timeSpent = 0.0f;
     }
 
+    public void SetBGM(int selection) {
+        if (selection == 0) {
+            BGM = BGM1;
+        } else if (selection == 1) {
+            BGM = BGM2;
+        }
+    }
+
     public int GetNewpaperCount()
     {
         return NewspaperCount;
@@ -93,5 +106,10 @@ public class PersistentData : MonoBehaviour
     public float GetTimeSpent()
     {
         return timeSpent;
+    }
+
+    public AudioClip GetBGM()
+    {
+        return BGM;
     }
 }
