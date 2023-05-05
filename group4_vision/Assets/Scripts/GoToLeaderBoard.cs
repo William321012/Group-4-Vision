@@ -20,13 +20,17 @@ public class GoToLeaderBoard : MonoBehaviour
     IEnumerator NextScene() {
         if (SceneManager.GetActiveScene().name == "Good Ending"){
             yield return new WaitForSeconds(65f);
-            SceneManager.LoadScene("Leaderboard");
+            SceneManager.LoadScene("End Credits");
         } else if (SceneManager.GetActiveScene().name == "Bad Ending"){
             yield return new WaitForSeconds(45f);
-            SceneManager.LoadScene("Leaderboard");
+            SceneManager.LoadScene("End Credits");
         } else if (SceneManager.GetActiveScene().name == "End Credits"){
             yield return new WaitForSeconds(110f);
-            SceneManager.LoadScene("Main Menu");
+            SceneManager.LoadScene("Leaderboard");
         }
+    }
+
+    public void moveToLeaderboard() {
+        SceneManager.LoadScene("Leaderboard");
     }
 }

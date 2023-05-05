@@ -23,7 +23,9 @@ public class HighScores : MonoBehaviour
         collectableCount = PersistentData.Instance.GetNewpaperCount() + PersistentData.Instance.GetScrapCount();
         playerTimeSpent = PersistentData.Instance.GetTimeSpent();
 
-        SavePlayerScore();
+        if (playerTimeSpent != 0) {
+            SavePlayerScore();
+        }
         DisplayHighScores();
     }
 

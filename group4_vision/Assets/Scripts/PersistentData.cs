@@ -23,6 +23,8 @@ public class PersistentData : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        // Testing Leaderboard
+        // PlayerPrefs.DeleteAll();
     }
 
     // Start is called before the first frame update
