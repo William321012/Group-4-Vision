@@ -21,7 +21,6 @@ public class GameSettings : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     public void PlayGame()
@@ -37,6 +36,7 @@ public class GameSettings : MonoBehaviour
 
     public void GoToMain() {
         SceneManager.LoadScene("Main Menu");
+        PersistentData.Instance.SetTimeSpentZero();
     }
 
     public void GoToCredits() {

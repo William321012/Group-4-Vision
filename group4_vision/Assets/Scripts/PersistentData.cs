@@ -8,7 +8,7 @@ public class PersistentData : MonoBehaviour
     [SerializeField] public int ScrapCount;
     [SerializeField] public int EndingCount;
     [SerializeField] string playerName;
-    [SerializeField] float timeSpent;
+    [SerializeField] float timeSpent = 0.0f;
 
     public static PersistentData Instance;
 
@@ -37,7 +37,6 @@ public class PersistentData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
      public void SetNewspaperCount(int amount)
@@ -60,9 +59,13 @@ public class PersistentData : MonoBehaviour
         playerName = name;
     }
 
-    public void SetTimeSpent(float time)
+    public void AddTimeSpent()
     {
-        timeSpent = time;
+        timeSpent += Time.timeSinceLevelLoad;
+    }
+
+    public void SetTimeSpentZero() {
+        timeSpent = 0.0f;
     }
 
     public int GetNewpaperCount()

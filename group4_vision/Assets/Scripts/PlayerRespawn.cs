@@ -34,6 +34,7 @@ public class PlayerRespawn : MonoBehaviour
                     SceneManager.LoadScene("Bad Ending");
                 }
             }
+            PersistentData.Instance.AddTimeSpent();
         }
     }
 
