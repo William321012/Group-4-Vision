@@ -13,11 +13,11 @@ public class NpcMove : MonoBehaviour
     private int index = 0;
     public GameObject option1;
     public GameObject option2;
+    public GameObject option3;
     public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
     [SerializeField] GameObject myplayer;
-    public GameObject MyPlayer;
 
 
     void Start()
@@ -25,11 +25,13 @@ public class NpcMove : MonoBehaviour
         dialogueText.text = "";
         option1.SetActive(false);
         option2.SetActive(false);
+        option3.SetActive(false);
 
         if (myplayer == null)
         {
             myplayer = GameObject.FindGameObjectWithTag("Player");
         }
+        playerIsClose = false;
     }
 
     // Update is called once per frame
@@ -39,7 +41,7 @@ public class NpcMove : MonoBehaviour
         {
             if (!dialoguePanel.activeInHierarchy)
             {
-                MyPlayer.SetActive(false);
+             
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
@@ -67,14 +69,28 @@ public class NpcMove : MonoBehaviour
         dialogueText.text = "";
         index = 0;
         option1.SetActive(false);
+        dialogueText.text = "";
         //dialoguePanel.SetActive(false);
+        HideChoices();
 
     }
     public void ShowChoices()
     {
         option1.SetActive(true);
         option2.SetActive(true);
+        option3.SetActive(true);
     }
+    public void HideChoices()
+    {
+        option1.SetActive(false);
+        option2.SetActive(false);
+        option3.SetActive(false);
+    }
+    public void HideButton() {
+        contButton.SetActive(false);
+    }
+
+
 
 
     IEnumerator Typing()
@@ -97,11 +113,13 @@ public class NpcMove : MonoBehaviour
             index++;
             dialogueText.text = "";
             StartCoroutine(Typing());
+            HideChoices();
         }
         else
         {
             RemoveText();
             ShowChoices();
+            
         }
     }
 
@@ -119,7 +137,10 @@ public class NpcMove : MonoBehaviour
         {
             playerIsClose = false;
             RemoveText();
-            MyPlayer.SetActive(true);
+            HideChoices();
+            HideButton();
+
+     
         }
     }
 }
