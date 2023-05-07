@@ -5,12 +5,13 @@ using UnityEngine;
 public class NewsPaperCollected : MonoBehaviour
 {
     [SerializeField] GameObject NewsPaperTiggered;
-
+    // Start is called before the first frame update
     void Start()
     {
         NewsPaperTiggered = GameObject.FindGameObjectWithTag("CollectController");
     }
 
+    // Update is called once per frame
     void Update()
     {
         

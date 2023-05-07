@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerRespawn : MonoBehaviour
 {
@@ -22,22 +21,7 @@ public class PlayerRespawn : MonoBehaviour
             Debug.Log("Death");
             Respawn();
         }
-
-        if (collision.collider.CompareTag("NextScene"))
-        {
-            if (SceneManager.GetActiveScene().name == "Underground City") {
-                SceneManager.LoadScene("Sky City");
-            } else if (SceneManager.GetActiveScene().name == "Sky City") {
-                if (PersistentData.Instance.GetEndingCount() >= 0) {
-                    SceneManager.LoadScene("Good Ending");
-                } else if (PersistentData.Instance.GetEndingCount() < 0 ) {
-                    SceneManager.LoadScene("Bad Ending");
-                }
-            }
-            PersistentData.Instance.AddTimeSpent();
-        }
     }
-
     private void Respawn()
     {
         transform.position = respawnPoint.position;
