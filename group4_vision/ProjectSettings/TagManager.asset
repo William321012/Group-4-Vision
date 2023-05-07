@@ -10,7 +10,7 @@ TagManager:
   - ReturnButton
   - ContinueButton
   - CollectController
-  - Npc
+  - NextScene
   layers:
   - Default
   - TransparentFX
@@ -83,9 +83,6 @@ TagManager:
     locked: 0
   - name: Chatbox
     uniqueID: 693417113
-    locked: 0
-  - name: Dialogue
-    uniqueID: 1411243063
     locked: 0
   - name: Foreground 1
     uniqueID: 931764749
