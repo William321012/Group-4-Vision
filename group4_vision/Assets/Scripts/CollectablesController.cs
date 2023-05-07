@@ -27,13 +27,13 @@ public class CollectablesController : MonoBehaviour
 
     public void IncreaseFoodScrapCount() {
         ScrapCount = ScrapCount + 1;
-        scrapTxt.text = ScrapCount + "/10";
+        scrapTxt.text = ScrapCount + "/15";
         PersistentData.Instance.SetScrapCount(ScrapCount);
     }
 
     public void IncreaseNewspaperCount() {
         NewspaperCount = NewspaperCount + 1;
-        NewsPaperTxt.text = NewspaperCount + "/3";
+        NewsPaperTxt.text = NewspaperCount + "/6";
         PersistentData.Instance.SetNewspaperCount(NewspaperCount);
     }
 }
