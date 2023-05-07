@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CollectablesController : MonoBehaviour
 {
@@ -15,12 +16,13 @@ public class CollectablesController : MonoBehaviour
     {
         ScrapCount = PersistentData.Instance.GetScrapCount();
         NewspaperCount = PersistentData.Instance.GetNewpaperCount();
+        scrapTxt.text = ScrapCount + "/10";
+        NewsPaperTxt.text = NewspaperCount + "/3";
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     public void IncreaseFoodScrapCount() {
@@ -31,7 +33,7 @@ public class CollectablesController : MonoBehaviour
 
     public void IncreaseNewspaperCount() {
         NewspaperCount = NewspaperCount + 1;
-        NewsPaperTxt.text = NewspaperCount + "/10";
+        NewsPaperTxt.text = NewspaperCount + "/3";
         PersistentData.Instance.SetNewspaperCount(NewspaperCount);
     }
 }

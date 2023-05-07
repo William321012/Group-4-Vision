@@ -385,6 +385,7 @@ SpriteAtlas:
   - {fileID: -124090722, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - {fileID: 1738968197, guid: 413986c4a668c374d8de72a47621b531, type: 3}
   - {fileID: 21300000, guid: 3fc2bbd409bf34ab6af1637bab569da1, type: 3}
+  - {fileID: 21300000, guid: 383a50f4d59720e4dbfef2ec24cb5c09, type: 3}
   - {fileID: 21300000, guid: f7187675ec12e4aacaeb0e97ad31230a, type: 3}
   - {fileID: 21300000, guid: 55e98b85e57fe472fa74b40d9b61538b, type: 3}
   - {fileID: 21300000, guid: 724ba19574b4b41399100a70044d62e7, type: 3}
@@ -1872,6 +1873,8 @@ SpriteAtlas:
   - {fileID: 123861452, guid: bbf1993bf4e31194f9d5ee94ecea8677, type: 3}
   - {fileID: 1868358960, guid: bbf1993bf4e31194f9d5ee94ecea8677, type: 3}
   - {fileID: 21300000, guid: 11a3cc3bb0518d44e80fc8e523b07e87, type: 3}
+  - {fileID: 21300000, guid: 53872c4bba7035e4abe0c533461f5b2f, type: 3}
+  - {fileID: 21300000, guid: 1063c46b7f22a9f44b0142eb22b07a78, type: 3}
   - {fileID: 21300000, guid: 7f14a77bcc323b040b033a058f8d1979, type: 3}
   - {fileID: 21300000, guid: 5d3bcf9bd7a3c484d9a14a2502432dc2, type: 3}
   - {fileID: 21300000, guid: 4aadbdeb8a80c664a8fd117c907b5f3f, type: 3}
@@ -3643,6 +3646,7 @@ SpriteAtlas:
   - Terrain (16x16) 1_3
   - Terrain (16x16) 1_2
   - big-crate
+  - LeaderboardBackground 1
   - tree
   - banner-big-2
   - banner-neon-2
@@ -5130,6 +5134,8 @@ SpriteAtlas:
   - mainlevbuild_756
   - mainlevbuild_784
   - purple_L4
+  - Directions
+  - grey_panel
   - red_L2
   - monitor-face-4
   - plant-house
