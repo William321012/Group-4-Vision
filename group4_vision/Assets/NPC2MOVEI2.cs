@@ -68,7 +68,8 @@ public class NPC2MOVEI2 : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       
+        if (collision.gameObject.name == "Player")
+        {
             if (Input.GetKeyDown(KeyCode.F))
             {
                 if (!dialoguePanel.activeInHierarchy)
@@ -93,6 +94,6 @@ public class NPC2MOVEI2 : MonoBehaviour
 
             }
         }
-    
+    }
 
 }

@@ -19,7 +19,6 @@ public class Npc2_Move : MonoBehaviour
     [SerializeField] GameObject myplayer;
 
 
-
     void Start()
     {
         dialogueText.text = "";
@@ -30,8 +29,6 @@ public class Npc2_Move : MonoBehaviour
         {
             myplayer = GameObject.FindGameObjectWithTag("Player");
         }
-
-        playerIsClose = false;
     }
 
     // Update is called once per frame
@@ -120,7 +117,6 @@ public class Npc2_Move : MonoBehaviour
         {
             playerIsClose = false;
             RemoveText();
-        
         }
     }
 }
