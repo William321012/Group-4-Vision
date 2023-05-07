@@ -19,8 +19,6 @@ public class Option_Two : MonoBehaviour
         dialoguePanel.SetActive(false);
         dialoguePanel2.SetActive(true);
         Textfield.text = text;
-        
-
     }
 
     public void RemovePanel()

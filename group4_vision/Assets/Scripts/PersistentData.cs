@@ -56,9 +56,9 @@ public class PersistentData : MonoBehaviour
         ScrapCount = amount;
     }
 
-    public void SetEndingCount(int amount)
+    public void AdjustEndingCount(int amount)
     {
-        EndingCount = amount;
+        EndingCount += amount;
     }
 
     public void SetName(string name)
