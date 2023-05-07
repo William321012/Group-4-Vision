@@ -12,6 +12,8 @@ public class Option_One : MonoBehaviour
 
     public GameObject option1;
     public GameObject option2;
+    public GameObject option3;
+
 
     public void SetText(string text)
     {
