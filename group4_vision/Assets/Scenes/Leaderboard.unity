@@ -492,7 +492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables Count: 0/20'
+  m_Text: 'Total Collectables Count: 0/21'
 --- !u!222 &346344896
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables Count: 0/20'
+  m_Text: 'Total Collectables Count: 0/21'
 --- !u!222 &765113372
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1680,7 +1680,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables Count: 0/20'
+  m_Text: 'Total Collectables Count: 0/21'
 --- !u!222 &1602636417
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2250,7 +2250,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables Count: 0/20'
+  m_Text: 'Total Collectables Count: 0/21'
 --- !u!222 &1845341020
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2330,7 +2330,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables Count: 0/20'
+  m_Text: 'Total Collectables Count: 0/21'
 --- !u!222 &1895201149
 CanvasRenderer:
   m_ObjectHideFlags: 0
