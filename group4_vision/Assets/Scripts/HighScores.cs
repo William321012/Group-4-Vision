@@ -69,8 +69,8 @@ public class HighScores : MonoBehaviour
 
     public void DisplayHighScores() {
         for (int i = 0; i < NUM_HIGH_SCORES; i++) {
-            nameTexts[i].text = "Player Name: " + PlayerPrefs.GetString(NAME_KEY + (i+1));
-            collectableTexts[i].text = "Total Collectable Count: " + PlayerPrefs.GetInt(COLLECTABLE_KEY + (i+1)).ToString() + "/21";
+            nameTexts[i].text = "Player: " + PlayerPrefs.GetString(NAME_KEY + (i+1));
+            collectableTexts[i].text = "Total Collectables: " + PlayerPrefs.GetInt(COLLECTABLE_KEY + (i+1)).ToString() + "/21";
             timeTexts[i].text = "Time Spent: " + (Mathf.Round(PlayerPrefs.GetFloat(TIME_KEY + (i+1)))).ToString() + " Seconds";
         }
     }
