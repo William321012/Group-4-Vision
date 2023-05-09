@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 346344896}
   - component: {fileID: 346344895}
   m_Layer: 5
-  m_Name: CollectablesCount5
+  m_Name: CollectiblesCount5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables: 0/21'
+  m_Text: 'Total Collectibles: 0/21'
 --- !u!222 &346344896
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1079,7 +1079,7 @@ GameObject:
   - component: {fileID: 765113372}
   - component: {fileID: 765113371}
   m_Layer: 5
-  m_Name: CollectablesCount3
+  m_Name: CollectiblesCount3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1138,7 +1138,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables: 0/21'
+  m_Text: 'Total Collectibles: 0/21'
 --- !u!222 &765113372
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1910,7 +1910,7 @@ GameObject:
   - component: {fileID: 1602636417}
   - component: {fileID: 1602636416}
   m_Layer: 5
-  m_Name: CollectablesCount1
+  m_Name: CollectiblesCount1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1969,7 +1969,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables: 0/21'
+  m_Text: 'Total Collectibles: 0/21'
 --- !u!222 &1602636417
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2398,7 +2398,7 @@ GameObject:
   - component: {fileID: 1845341020}
   - component: {fileID: 1845341019}
   m_Layer: 5
-  m_Name: CollectablesCount2
+  m_Name: CollectiblesCount2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2457,7 +2457,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables: 0/21'
+  m_Text: 'Total Collectibles: 0/21'
 --- !u!222 &1845341020
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2478,7 +2478,7 @@ GameObject:
   - component: {fileID: 1895201149}
   - component: {fileID: 1895201148}
   m_Layer: 5
-  m_Name: CollectablesCount4
+  m_Name: CollectiblesCount4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2537,7 +2537,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Total Collectables: 0/21'
+  m_Text: 'Total Collectibles: 0/21'
 --- !u!222 &1895201149
 CanvasRenderer:
   m_ObjectHideFlags: 0
