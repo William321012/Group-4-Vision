@@ -9,7 +9,7 @@ public class PlayerRespawn : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Checkpoint"))
+        if (collision.CompareTag("Checkpoint") || collision.CompareTag("BaseCheckpoint"))
         {
             Debug.Log("Checkpoint");
             respawnPoint = collision.transform;

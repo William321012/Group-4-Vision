@@ -11,6 +11,7 @@ TagManager:
   - ContinueButton
   - CollectController
   - NextScene
+  - BaseCheckpoint
   layers:
   - Default
   - TransparentFX
