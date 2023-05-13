@@ -37,6 +37,7 @@ public class PersistentData : MonoBehaviour
     {
         NewspaperCount = 0;
         ScrapCount = 0;
+        timeSpent = 0.0f;
         EndingCount = 0;
         playerName = "";
     }
