@@ -74,6 +74,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 40ff3ff28c63f46e2bc32f70a58a4401, type: 3}
   - {fileID: 21300000, guid: 3456e21353d5ae04dac7e3b12da957dd, type: 3}
   - {fileID: 21300000, guid: aab7ef2331b8bbc42bf59b5e1bbb6f5b, type: 3}
+  - {fileID: 21300000, guid: c418fd53a794a054f95d7e19a98591f7, type: 3}
   - {fileID: 21300000, guid: fa534a63c52e442fab833f8c4c218610, type: 3}
   - {fileID: 21300000, guid: 348c3b734b11d3b4aa5c69e25b7113e6, type: 3}
   - {fileID: 21300000, guid: a86fabb3151544d25b4310ff397f732a, type: 3}
@@ -3335,6 +3336,7 @@ SpriteAtlas:
   - banner-sushi-3
   - red_L1
   - purple_L2
+  - pngwing.com
   - house-b
   - Pink
   - skulls
