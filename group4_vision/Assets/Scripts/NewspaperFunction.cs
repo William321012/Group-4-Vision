@@ -7,12 +7,11 @@ public class NewspaperFunction : MonoBehaviour
     [SerializeField] public NewsUIWindow newsUI;
     [SerializeField] public int newspaperToCollect;
     public int newspaperCount;
-    
     private bool isOpened = false;
 
     void Update()
     {
-        newspaperCount = PersistentData.Instance.GetNewpaperCount();
+        newspaperCount = PersistentData.Instance.GetNewsCount();
         if (newspaperCount == newspaperToCollect && !isOpened)
         {
             NewspaperOpen();
