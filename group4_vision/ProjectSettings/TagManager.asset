@@ -12,7 +12,7 @@ TagManager:
   - CollectController
   - NextScene
   - BaseCheckpoint
-  - ScrapWall
+  - Interactable
   layers:
   - Default
   - TransparentFX

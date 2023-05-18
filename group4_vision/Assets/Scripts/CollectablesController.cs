@@ -8,6 +8,7 @@ public class CollectablesController : MonoBehaviour
 {
     [SerializeField] int ScrapCount;
     [SerializeField] int NewspaperCount;
+    [SerializeField] int NewsCount;
     [SerializeField] TMP_Text scrapTxt;
     [SerializeField] TMP_Text NewsPaperTxt;
 
@@ -16,6 +17,7 @@ public class CollectablesController : MonoBehaviour
     {
         ScrapCount = PersistentData.Instance.GetScrapCount();
         NewspaperCount = PersistentData.Instance.GetNewpaperCount();
+        NewsCount = PersistentData.Instance.GetNewsCount();
         scrapTxt.text = ScrapCount + "/15";
         NewsPaperTxt.text = NewspaperCount + "/6";
     }
@@ -35,5 +37,7 @@ public class CollectablesController : MonoBehaviour
         NewspaperCount = NewspaperCount + 1;
         NewsPaperTxt.text = NewspaperCount + "/6";
         PersistentData.Instance.SetNewspaperCount(NewspaperCount);
+        NewsCount = NewsCount +1;
+        PersistentData.Instance.SetNewsCount(NewsCount);
     }
 }

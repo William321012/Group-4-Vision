@@ -5,6 +5,7 @@ using UnityEngine;
 public class PersistentData : MonoBehaviour
 {
     [SerializeField] public int NewspaperCount;
+    [SerializeField] public int NewsCount;
     [SerializeField] public int ScrapCount;
     [SerializeField] public int EndingCount;
     [SerializeField] string playerName;
@@ -37,6 +38,7 @@ public class PersistentData : MonoBehaviour
     void Start()
     {
         NewspaperCount = 0;
+        NewsCount = 0;
         ScrapCount = 0;
         timeSpent = 0.0f;
         EndingCount = 0;
@@ -60,6 +62,10 @@ public class PersistentData : MonoBehaviour
     public void SetNewspaperCount(int amount)
     {
         NewspaperCount = amount;
+    }
+    public void SetNewsCount(int amount)    //this is for displaying newspaper ui
+    {
+        NewsCount = amount;
     }
 
     public void SetScrapCount(int amount)
@@ -105,6 +111,10 @@ public class PersistentData : MonoBehaviour
     public int GetNewpaperCount()
     {
         return NewspaperCount;
+    }
+    public int GetNewsCount()   //for news ui
+    {
+        return NewsCount;
     }
 
     public int GetScrapCount()
