@@ -106,6 +106,10 @@ public class Npc2_Move : MonoBehaviour
         }
     }
 
+    public void GuardIteraction() {
+        PersistentData.Instance.SetNpcCheck();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

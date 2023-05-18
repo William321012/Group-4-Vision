@@ -8,6 +8,7 @@ public class BackToMenu : MonoBehaviour
 {
     public void ToMenu()
     {
+        PersistentData.Instance.SetAllValuesZero();
         SceneManager.LoadScene("Main Menu");
     }
 }

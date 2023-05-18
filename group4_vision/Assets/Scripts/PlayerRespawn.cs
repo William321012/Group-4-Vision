@@ -36,6 +36,12 @@ public class PlayerRespawn : MonoBehaviour
             }
             PersistentData.Instance.AddTimeSpent();
         }
+
+        if (PersistentData.Instance.GetScrapCount() == 5 && PersistentData.Instance.GetNpcCheck()) {
+            if (collision.collider.name == "Inv Collider 2") {
+                GameObject.Find("Inv Collider 2").SetActive(false);
+            }
+        }
     }
 
     private void Respawn()

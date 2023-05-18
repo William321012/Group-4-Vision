@@ -47,8 +47,8 @@ public class GameSettings : MonoBehaviour
     }
 
     public void GoToMain() {
+        PersistentData.Instance.SetAllValuesZero();
         SceneManager.LoadScene("Main Menu");
-        PersistentData.Instance.SetTimeSpentZero();
     }
 
     public void GoToSettings() {

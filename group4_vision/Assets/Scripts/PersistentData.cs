@@ -9,6 +9,7 @@ public class PersistentData : MonoBehaviour
     [SerializeField] public int EndingCount;
     [SerializeField] string playerName;
     [SerializeField] float timeSpent = 0.0f;
+    [SerializeField] bool npcCheck = false;
     [SerializeField] AudioClip BGM;
     [SerializeField] AudioClip BGM1;
     [SerializeField] AudioClip BGM2;
@@ -47,7 +48,16 @@ public class PersistentData : MonoBehaviour
     {
     }
 
-     public void SetNewspaperCount(int amount)
+    public void SetAllValuesZero(){
+        NewspaperCount = 0;
+        ScrapCount = 0;
+        timeSpent = 0.0f;
+        EndingCount = 0;
+        playerName = "";
+        npcCheck = false;
+    }
+
+    public void SetNewspaperCount(int amount)
     {
         NewspaperCount = amount;
     }
@@ -82,6 +92,14 @@ public class PersistentData : MonoBehaviour
         } else if (selection == 1) {
             BGM = BGM2;
         }
+    }
+
+    public void SetNpcCheck() {
+        npcCheck = true;
+    }
+
+    public bool GetNpcCheck() {
+        return npcCheck;
     }
 
     public int GetNewpaperCount()
