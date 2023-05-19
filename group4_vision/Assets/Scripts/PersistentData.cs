@@ -52,6 +52,7 @@ public class PersistentData : MonoBehaviour
 
     public void SetAllValuesZero(){
         NewspaperCount = 0;
+        NewsCount = 0;
         ScrapCount = 0;
         timeSpent = 0.0f;
         EndingCount = 0;
