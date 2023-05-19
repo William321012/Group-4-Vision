@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1000 height=455></canvas>
+      <canvas id="unity-canvas" width=1080 height=490></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Group4_vision_webGL.loader.js";
+      var loaderUrl = buildUrl + "/Group4_Vision_webGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Group4_vision_webGL.data",
-        frameworkUrl: buildUrl + "/Group4_vision_webGL.framework.js",
-        codeUrl: buildUrl + "/Group4_vision_webGL.wasm",
+        dataUrl: buildUrl + "/Group4_Vision_webGL.data",
+        frameworkUrl: buildUrl + "/Group4_Vision_webGL.framework.js",
+        codeUrl: buildUrl + "/Group4_Vision_webGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Group 4 - Vision",
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1000px";
-        canvas.style.height = "455px";
+        canvas.style.width = "1080px";
+        canvas.style.height = "490px";
       }
 
       loadingBar.style.display = "block";
