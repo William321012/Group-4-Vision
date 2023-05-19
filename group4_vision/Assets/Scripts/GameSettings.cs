@@ -66,4 +66,9 @@ public class GameSettings : MonoBehaviour
     public void ChangeBGM() {
         PersistentData.Instance.SetBGM(musicOptionDropdown.value);
     }
+
+    public void ResetLeaderboard() {
+        PlayerPrefs.DeleteAll();
+
+    }
 }
