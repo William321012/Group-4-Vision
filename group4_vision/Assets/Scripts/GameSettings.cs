@@ -9,10 +9,14 @@ public class GameSettings : MonoBehaviour
     [SerializeField] Slider volumeSlider;
     [SerializeField] InputField username;
     [SerializeField] Dropdown musicOptionDropdown;
+    [SerializeField] int level;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        level = SceneManager.GetActiveScene().buildIndex;
+
         if (username == null && SceneManager.GetActiveScene().name == "Main Menu") {
             username = GameObject.Find("Name").GetComponent<InputField>();
             username.text = PersistentData.Instance.GetName();
@@ -59,6 +63,10 @@ public class GameSettings : MonoBehaviour
         SceneManager.LoadScene("End Credits");
     }
 
+    public void GoToUndergroundCity() {
+        SceneManager.LoadScene("Underground City");
+    }
+
     public void ChangeVolume() {
         AudioListener.volume = volumeSlider.value;
     }
@@ -69,6 +77,5 @@ public class GameSettings : MonoBehaviour
 
     public void ResetLeaderboard() {
         PlayerPrefs.DeleteAll();
-
     }
 }
