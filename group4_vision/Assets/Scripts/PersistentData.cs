@@ -11,6 +11,7 @@ public class PersistentData : MonoBehaviour
     [SerializeField] string playerName;
     [SerializeField] float timeSpent = 0.0f;
     [SerializeField] bool npcCheck = false;
+    [SerializeField] bool npcCheck2 = false;
     [SerializeField] AudioClip BGM;
     [SerializeField] AudioClip BGM1;
     [SerializeField] AudioClip BGM2;
@@ -103,6 +104,14 @@ public class PersistentData : MonoBehaviour
 
     public void SetNpcCheck() {
         npcCheck = true;
+    }
+
+    public void SetNpcCheck2() {
+        npcCheck2 = true;
+    }
+
+    public bool GetNpcCheck2() {
+        return npcCheck2;
     }
 
     public bool GetNpcCheck() {
