@@ -8454,7 +8454,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1597855362}
   dialogueText: {fileID: 1740982718}
   dialogue:
-  - Hey you! come back here (HoHoHo), I am very hungry and need to something to eat!!!
+  - ething to eat!!!ck here (HoHoHo), I am very hungry and need something to eat!!!
   option1: {fileID: 1502173007}
   option2: {fileID: 1578923892}
   option3: {fileID: 1578923892}
